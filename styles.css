@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Honk&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+	margin: 0;
+}
+
+.movieShop {
+	display: flex;
+	justify-content: space-around;
+	min-height: 100vh;
+}
+.titleList h1 {
+	text-align: center;
+	font-size: 2.5rem;
+	padding: 1rem;
+}
+.titleList {
+	background: #000;
+	color: white;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	font-family: "Montserrat", sans-serif;
+	font-optical-sizing: auto;
+	border-top-right-radius: 0.5rem;
+	border-bottom-right-radius: 0.5rem;
+}
+
+.description h1 {
+	text-align: center;
+	font-size: 2.5rem;
+	padding-bottom: 2.5rem;
+	font-family: "Montserrat", sans-serif;
+	font-optical-sizing: auto;
+}
+.description {
+	padding: 1.5rem;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.titleList li {
+	padding: 1.5rem;
+	cursor: pointer;
+	list-style: none;
+}
+.titleList li:hover {
+	background: rgb(29, 28, 28);
+	transform: scale(2rem);
+	border-radius: 1rem;
+	box-shadow: gray;
+}
+.description {
+	background: white;
+}
+img {
+	width: auto;
+	height: 45rem;
+	border-radius: 0.4rem;
+}
+.description p {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding-bottom: 1rem;
+	font-family: "Montserrat", sans-serif;
+	font-optical-sizing: auto;
+}
+.description h2 {
+	font: bolder;
+	font-family: "Exo", sans-serif;
+}
