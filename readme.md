@@ -25,7 +25,7 @@ Follow these steps to get the project up and running on your local machine.
 ### Prerequisites
 
 - Make sure you have a local server running on `http://localhost:3000` with a list of movies.
-- run a local server `npx json-server --watch db.json`
+- How to run a local server `npx json-server --watch db.json`
 
 ### Installation
 
