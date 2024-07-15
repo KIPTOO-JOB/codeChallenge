@@ -38,4 +38,4 @@ Follow these steps to get the project up and running on your local machine.
 
 ### My Live Link
 
-(ClickMe) [https://code-challenge-pearl.vercel.app/]
+[ClickMe] (https://code-challenge-pearl.vercel.app/)
