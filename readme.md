@@ -35,3 +35,7 @@ Follow these steps to get the project up and running on your local machine.
    git clone https://github.com/KIPTOO-JOB/codeChallenge.git
 
    ```
+
+### My Live Link
+
+(ClickMe) [https://code-challenge-pearl.vercel.app/]
