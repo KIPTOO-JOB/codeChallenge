@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-	const apiUrl = "http://localhost:3000/films";
+	const apiUrl = "https://db-json-pi.vercel.app/films";
 
 	fetch(apiUrl)
 		.then((res) => {
