@@ -10,6 +10,15 @@ document.addEventListener("DOMContentLoaded", () => {
 				list.textContent = movie.title;
 				list.addEventListener("click", () => MovieDesc(movie.id));
 				title.appendChild(list);
+				const description = document.querySelector(".description");
+
+				const movieList = document.createElement("h3");
+				movieList.textContent = movie.title;
+				description.appendChild(movieList);
+
+				const moviePoster = document.createElement("img");
+				moviePoster.src = movie.poster;
+				description.appendChild(moviePoster);
 			});
 		});
 
@@ -19,6 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
 			.then((res) => res.json())
 			.then((movie) => {
 				const description = document.querySelector(".description");
+
 				description.innerHTML = `
 					<h1>${movie.title}</h1>
 					<div>
