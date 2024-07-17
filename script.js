@@ -20,12 +20,24 @@ document.addEventListener("DOMContentLoaded", () => {
 				moviedescription.textContent = movie.description;
 				description.appendChild(moviedescription);
 
+				const movieShowtime = document.createElement("h2");
+				movieShowtime.textContent = `ShowTime :${movie.showtime}`;
+				description.appendChild(movieShowtime);
+
+				const movieRuntime = document.createElement("h2");
+				movieRuntime.textContent = `Runtime: ${movie.runtime} `;
+				description.appendChild(movieRuntime);
+
+				const movieCapacity = document.createElement("h3");
+				movieCapacity.textContent = `Capacity:${movie.capacity}`;
+				description.appendChild(movieCapacity);
+
 				const moviePoster = document.createElement("img");
 				moviePoster.src = movie.poster;
 				description.appendChild(moviePoster);
 			});
 		});
-
+	runtime;
 	function MovieDesc(movieId) {
 		const movieUrl = `${apiUrl}/${movieId}`;
 		fetch(movieUrl)

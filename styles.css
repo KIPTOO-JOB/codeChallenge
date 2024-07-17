@@ -26,6 +26,9 @@
 	border-top-right-radius: 0.5rem;
 	border-bottom-right-radius: 0.5rem;
 }
+.titleList::-webkit-scrollbar {
+	display: none;
+}
 
 .description h1 {
 	text-align: center;
@@ -106,5 +109,9 @@ p {
 img {
 	display: flex;
 	align-items: center;
+	justify-content: center;
+}
+moviePoster {
+	display: flex;
 	justify-content: center;
 }
