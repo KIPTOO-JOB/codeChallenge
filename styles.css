@@ -55,7 +55,7 @@
 .description {
 	background: white;
 }
-img {
+.description img {
 	width: 50rem;
 	justify-content: center;
 	align-items: center;
@@ -73,4 +73,13 @@ img {
 .description h2 {
 	font: bolder;
 	font-family: "Exo", sans-serif;
+}
+#desc img {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	width: 25rem;
+	height: 25rem;
+	width: 25rem;
 }
