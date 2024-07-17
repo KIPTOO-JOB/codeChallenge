@@ -28,6 +28,10 @@ document.addEventListener("DOMContentLoaded", () => {
 				movieRuntime.textContent = `Runtime: ${movie.runtime} `;
 				description.appendChild(movieRuntime);
 
+				const movieNoOfTickets = document.createElement("h3");
+				movieNoOfTickets.textContent = `Number Of Movie Tickets Sold: ${movie.tickets_sold}`;
+				description.appendChild(movieNoOfTickets);
+
 				const movieCapacity = document.createElement("h3");
 				movieCapacity.textContent = `Capacity:${movie.capacity}`;
 				description.appendChild(movieCapacity);
