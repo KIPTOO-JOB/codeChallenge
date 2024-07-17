@@ -95,6 +95,16 @@
 #buy-ticket :hover {
 	background: rgb(184, 179, 179);
 }
-moviePoster img {
-	pa
+#moviePoster img {
+	padding: 4rem;
+}
+
+p {
+	display: flex;
+	text-align: center;
+}
+img {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }

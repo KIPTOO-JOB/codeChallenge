@@ -16,6 +16,10 @@ document.addEventListener("DOMContentLoaded", () => {
 				movieList.textContent = movie.title;
 				description.appendChild(movieList);
 
+				const moviedescription = document.createElement("p");
+				moviedescription.textContent = movie.description;
+				description.appendChild(moviedescription);
+
 				const moviePoster = document.createElement("img");
 				moviePoster.src = movie.poster;
 				description.appendChild(moviePoster);
