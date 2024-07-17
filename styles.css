@@ -83,3 +83,12 @@
 	height: 25rem;
 	width: 25rem;
 }
+#buy-ticket {
+	padding: 2rem;
+	border-radius: 5px;
+	cursor: pointer;
+	letter-spacing: 1px;
+	border: none;
+	font-size: larger;
+	font-weight: bold;
+}
